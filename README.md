@@ -26,7 +26,7 @@ Raw transactional data was processed using **SQL**, and an **interactive Power B
 ## 📥 Download Interactive Report
 Since the Power BI (.pbix) file is large (25MB+), you can download it from the link below:
 
-👉 **[[Download .pbix File (Google Drive Link Yahan Daalo)]](https://drive.google.com/drive/folders/1TEEzZ1-sgAJFvWzas5XfEpsz_W8LNGgI?usp=sharing)**
+👉 **[[Download .pbix File ]](https://drive.google.com/drive/folders/1TEEzZ1-sgAJFvWzas5XfEpsz_W8LNGgI?usp=sharing)**
 
 ---
 
