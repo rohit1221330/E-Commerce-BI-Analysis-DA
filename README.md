@@ -1,47 +1,49 @@
-# E-Commerce-BI-Analysis-DA# 🛒 E-Commerce Business Intelligence Analysis (Olist Brazil)
+# E-Commerce-BI-Analysis-DA
 
-### 📊 Project Overview
-Yeh project **100k+ Brazilian E-commerce orders** ka deep analysis hai. Isme raw data ko **SQL** se process karke **Power BI** mein ek interactive dashboard banaya gaya hai taaki business growth aur customer behavior ko samjha ja sake.
+# 🛒 E-Commerce Business Intelligence Analysis (Olist Brazil)
 
----
-
-### 🛠️ Tech Stack & Skills
-* **Database:** MySQL (Data Cleaning, Advanced Joins, Business Logic Testing)
-* **BI Tool:** Power BI (Data Modeling, DAX Measures, Star Schema)
-* **Data Source:** Olist E-commerce Public Dataset (Kaggle)
-* **Analytical Skills:** RFM Analysis, Seasonal Trends, Geographic Distribution
+## 📊 Project Overview
+This project performs a **deep analysis of 100k+ Brazilian e-commerce orders**.  
+Raw transactional data was processed using **SQL**, and an **interactive Power BI dashboard** was built to understand **business growth patterns and customer behavior**.
 
 ---
 
-### 📂 Repository Structure
-* **`SQL_script.sql`**: Isme saari queries hain (Monthly Revenue, Day-wise Analysis, Payment Trends).
-* **`Dashboard.png`**: Dashboard ki high-quality images.
-* **`README.md`**: Project ki poori jankari.
+## 🛠️ Tech Stack & Skills
+- **Database:** MySQL (Data Cleaning, Advanced Joins, Business Logic Testing)
+- **BI Tool:** Power BI (Data Modeling, DAX Measures, Star Schema)
+- **Data Source:** Olist E-commerce Public Dataset (Kaggle)
+- **Analytical Skills:** RFM Analysis, Seasonal Trend Analysis, Geographic Distribution Analysis
 
 ---
 
-### 📥 Download Interactive Report
-Chunki Power BI (.pbix) file badi hai (25MB+), aap ise niche diye gaye link se download kar sakte hain:
+## 📂 Repository Structure
+- **`SQL_script.sql`** – Contains all analytical queries (Monthly Revenue, Day-wise Analysis, Payment Trends).
+- **`Dashboard.png`** – High-quality images of the Power BI dashboard.
+- **`README.md`** – Complete project documentation.
+
+---
+
+## 📥 Download Interactive Report
+Since the Power BI (.pbix) file is large (25MB+), you can download it from the link below:
+
 👉 **[[Download .pbix File (Google Drive Link Yahan Daalo)]](https://drive.google.com/drive/folders/1TEEzZ1-sgAJFvWzas5XfEpsz_W8LNGgI?usp=sharing)**
 
 ---
 
-### 💡 Key Business Insights
-* **Dominant Payment:** **74% revenue** Credit Cards se aata hai, jo installments (EMI) ki popularity dikhata hai.
-* **Peak Sales:** **Nov 2017** mein sabse bada spike dekha gaya (Black Friday effect).
-* **Top Category:** **Health & Beauty** aur **Watches** top revenue-generating categories hain.
-* **Customer Geography:** **Sao Paulo** aur **Rio de Janeiro** Brazil ke sabse bade market hubs hain.
+## 💡 Key Business Insights
+- **Dominant Payment Method:** **74% of total revenue** comes from credit card payments, indicating the popularity of installment-based purchases.
+- **Peak Sales Period:** **November 2017** experienced the highest spike in sales, largely due to the **Black Friday effect**.
+- **Top Revenue Categories:** **Health & Beauty** and **Watches** generate the highest revenue.
+- **Customer Geography:** **São Paulo** and **Rio de Janeiro** represent the largest customer markets in Brazil.
 
 ---
 
-### 🧠 Challenges & Solutions
-* **Data Modeling:** Shuruat mein visuals "flat" aa rahe the, jise maine **Star Schema** aur **DAX `CROSSFILTER`** functions use karke fix kiya taaki tables ke beech filter flow sahi ho sake.
-* **Data Localization:** Portuguese category names ko SQL Joins ke zariye English mein translate kiya taaki stakeholders ke liye report readable ho.
+## 🧠 Challenges & Solutions
+- **Data Modeling Issue:** Initially, the dashboard visuals appeared flat due to improper table relationships. This was solved by implementing a **Star Schema model** and using **DAX `CROSSFILTER` functions** to ensure correct filter propagation between tables.
+- **Data Localization:** Product categories were originally in Portuguese. These were translated into English using **SQL joins**, making the report easier to understand for stakeholders.
 
 ---
 
-### 🤝 Connect with Me
-* **LinkedIn:** https://www.linkedin.com/in/rohit-dhyani-51b25b32a
-* **GitHub:** https://github.com/rohit1221330
-
----
+## 🤝 Connect with Me
+- **LinkedIn:** https://www.linkedin.com/in/rohit-dhyani-51b25b32a
+- **GitHub:** https://github.com/rohit1221330
